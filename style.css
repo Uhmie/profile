@@ -71,6 +71,18 @@ a:hover {
   color: red;
 }
 
+.list-inline-sidebar li{
+  display: inline-block;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.list-inline-sidebar {
+  padding-left: 0px;
+  display: grid;
+}
+
 .list-inline li i{
   font-size: 25px;
 }
@@ -108,4 +120,16 @@ a:hover {
   .image-round {
     width: 200px;
   }
+}
+
+#sidebar {
+  background-color: #f8e855;
+  position: fixed;
+  width: 80px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#page-content {
+  margin-left: 300px;
 }
